@@ -31,7 +31,7 @@ let generateCart = () => {
 
             return( `
             <div class = "cartItem">
-                <img width = "100" height="100"src=${img} alt="t-shirt" />
+                <img width = "100" height="106" src=${img} alt="t-shirt" />
                 <div class = "details">
 
                     <div class="item-price">
@@ -44,7 +44,9 @@ let generateCart = () => {
                     </div>
 
 
-                    <div class="button">
+                    <div class="button-container">
+                        <div class= "button">
+
                         <i onClick="decrement(${id})" class="bi bi-dash-lg"></i>
                         <div id=${id} class="qty">${qty}</div>
                         <i onClick="increment(${id})" class="bi bi-plus-lg"></i>
@@ -52,6 +54,7 @@ let generateCart = () => {
 
 
                     <h3><i class="bi bi-currency-rupee"></i> ${qty * price}</h3>
+                    </div>
                 </div>
 
             </div>
@@ -202,4 +205,3 @@ let totalBill = () => {
 }
 
 totalBill()
-

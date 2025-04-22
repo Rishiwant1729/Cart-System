@@ -10,6 +10,7 @@
 
 body{
     font-family: sans-serif;
+    background-color: rgb(21, 19, 19);
 
 }
 i {
@@ -27,16 +28,19 @@ a{
 .navbar{
     background-color: black;
     color: white;
+    width: 100%;
     padding: 20px 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 30px;
     align-items: center;
+    z-index: 1;
+    position: fixed;
+    top: 0;
 }
 
 .cart{
-    background-color: red;
     font-size: 30px;
     padding: 5px;
     position: relative;
@@ -44,11 +48,10 @@ a{
 
 .cart-amount{
     font-size: 16px;
-    background-color: blueviolet;
     position: absolute;
-    top: -15px;
-    right: -15px;
-    padding: 3px;
+    top: -12px;
+    right: -12px;
+    padding: 2px;
     
 }
 
@@ -60,6 +63,8 @@ a{
     gap: 30px;
     justify-content: center;
     margin-bottom: 50px;
+    margin-top: 150px;
+
 }
 @media (max-width: 1000px){
     .shop{
@@ -76,8 +81,8 @@ a{
 /* ! card styling here.......... */
 
 .item{
-    border: 2px solid black;
     border-radius: 10px;
+    background-color: #857c7c;
 
 }
 .item img {
@@ -105,6 +110,9 @@ a{
     font-size: 18px;
 }
 
+.qty {
+    color: white;
+}
 .bi-dash-lg{
     color: red;
 }
@@ -120,7 +128,8 @@ a{
 .text-center {
     text-align: center;
     margin-bottom: 20px;
-
+    margin-top: 100px;
+    color: whitesmoke;
 }
 
 .homeButton, 
@@ -145,6 +154,15 @@ a{
     font-weight: bold; 
 }
 
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+
 /* 
 ! style  for cart card 
 */
@@ -152,39 +170,47 @@ a{
     display: grid;
     grid-template-columns: repeat(1, 350px);
     justify-content: center;
-    gap: 15px;
-
-    
+    gap: 15px; 
 }
 
 /* 
 ! style  for each card 
 */
 
+
+
 .cartItem{
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
+    width: 400px;
+    height: 110px;
+    color: red;
     
+}
+
+.details{
+    margin-left: 10px;
+    padding: 8px;
 }
 
 .item-price{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border: 2px solid red;
-        width: 250px;
+        width: 270px;
+
 }
 
 .name-price{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .price{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: red;
     padding: 2px;
     border-radius: 4px;
 }
