@@ -22,6 +22,9 @@ a {
    background-position: top center;
    position: relative;
    z-index: 1;
+   display: flex;
+   justify-content: end;
+   align-items: end;
 }
 
 
@@ -72,7 +75,8 @@ a {
 
 .hero .Btn {
     display: flex;
-    justify-self: center;
+    justify-content: end;
+    align-items: end;
     padding: 10px 30px;
     color: rgb(255, 0, 0);
     background-color: transparent;

@@ -1,26 +1,115 @@
 // ? data of items stored in an object in data array..........
 let data = [{
-    id: "loki1",
+    id: "1",
     name: "God of Mischief",
     price: 1499,
     img: "Images/loki.webp",
-    description: "Lorem ipsum dolor sit"
-}, {
-    id: "loki2",
-    name: "Mischief",
+    description: "Loki - A Cunning master of Chaos & Deception."
+}, 
+{
+    id: "2",
+    name: "Berserking Menace",
     price: 1499,
-    img: "Images/loki.webp",
-    description: "Lorem ipsum dolor sit"
-}, {
-    id: "loki3",
-    name: "odin puttar",
+    img: "Images/ashura.webp",
+    description: "Anime Oversized T-shirt",
+},
+{
+    id: "3",
+    name: "N - Horror",
     price: 1499,
-    img: "Images/loki.webp",
-    description: "Lorem ipsum dolor sit"
-}, {
-    id: "loki4",
-    name: "dramebaaz",
+    img: "Images/ashura1.webp",
+    description: "Heavy Patch Worked Washed T-shirt",
+}, 
+{
+    id: "4",
+    name: "Anti-Magic",
     price: 1499,
-    img: "Images/loki.webp",
-    description: "Lorem ipsum dolor sit"
-}]
+    img: "Images/ashura2.webp",
+    description: "Doc Sleeves Washed T-shirt",
+},
+{
+    id: "5",
+    name: "Ashura",
+    price: 1499,
+    img: "Images/ashura3.webp",
+    description: "Ashura - Symbol of Grief, Valor And Tragedy",
+}, 
+{
+    id: "6",
+    name: "God - Complex",
+    price: 1499,
+    img: "Images/ashura4.webp",
+    description: "Doc Sleeves Washed T-shirt"
+},
+{
+    id: "7",
+    name: "Alchemy",
+    price: 1499,
+    img: "Images/ashura5.webp",
+    description: "Washed T-shirt",
+}, 
+{
+    id: "8",
+    name: "Finish-Your-Work",
+    price: 1499,
+    img: "Images/ashura6.webp",
+    description: "Anime Oversized T-shirt With Patch Work",
+},
+{
+    id: "9",
+    name: "Kaiju V1",
+    price: 1499,
+    img: "Images/ashura7.webp",
+    description: "Anime Oversized T-shirt",
+}, 
+{
+    id: "10",
+    name: "Weapon NO. 10",
+    price: 1499,
+    img: "Images/ashura8.webp",
+    description: "Fully Armoured T-shirt",
+},
+{
+    id: "11",
+    name: "Centebrae",
+    price: 1499,
+    img: "Images/ashura9.webp",
+    description: "Cut N Stitched Washed T-shirt",
+}, 
+{
+    id: "12",
+    name: "Paradise",
+    price: 1499,
+    img: "Images/ashura10.webp",
+    description: "Paradise Convertible T-shirt",
+},
+{
+    id: "13",
+    name: "Nerv 01",
+    price: 1499,
+    img: "Images/ashura11.webp",
+    description: "Acid washed V2-Anime Oversized T-shirt",
+}, 
+{
+    id: "14",
+    name: "Pillar of Stone",
+    price: 1499,
+    img: "Images/ashura12.webp",
+    description: "Anime Oversized T-shirt With Patch Work",
+},
+{
+    id: "15",
+    name: "Freedom",
+    price: 1499,
+    img: "Images/ashura13.webp",
+    description: "Acid Washed - AOT Anime Oversized T-shirt",
+},
+{
+    id: "16",
+    name: "Weakest Hunter",
+    price: 1499,
+    img: "Images/ashura14.webp",
+    description: "Anime Oversized T-shirt With Contrast Stitch",
+}, 
+
+]
